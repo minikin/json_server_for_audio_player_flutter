@@ -1,0 +1,27 @@
+{
+  "name": "fake-json-server",
+  "version": "0.0.1",
+  "description": "Json Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npx supervisor server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minikin/json-server.git"
+  },
+  "keywords": [
+    "json",
+    "server"
+  ],
+  "author": "Sasha Prokhorenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minikin/json-server/issues"
+  },
+  "homepage": "https://github.com/minikin/json-server#readme",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
