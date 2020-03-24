@@ -6,7 +6,6 @@ const router = jsonServer.router('db.json')
 const port = process.env.PORT || 4000;
 
 server.db = router.db
-server.use(auth)
 server.use(router)
 
 server.use(function (req, res, next) {
@@ -20,11 +19,11 @@ server.listen(port, () => {
 })
 
 
-// setInterval(function () {
-//   https.get('https://api-flutter-audio-player.herokuapp.com');
-// }, 300000);
-
-
 setInterval(function () {
-  https.get('http://localhost');
+  https.get('https://api-flutter-audio-player.herokuapp.com');
 }, 300000);
+
+
+// setInterval(function () {
+//   https.get('http://localhost');
+// }, 300000);
