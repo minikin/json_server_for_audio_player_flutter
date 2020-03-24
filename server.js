@@ -20,6 +20,11 @@ server.listen(port, () => {
 })
 
 
+// setInterval(function () {
+//   https.get('https://api-flutter-audio-player.herokuapp.com');
+// }, 300000);
+
+
 setInterval(function () {
-  https.get('https://api-flutter-audio-player.herokuapp.com');
+  https.get('http://localhost');
 }, 300000);
