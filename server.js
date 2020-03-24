@@ -4,14 +4,22 @@ const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
-// const port = process.env.PORT || 4000;
+const port = process.env.PORT || 4000;
 
 server.use(middlewares)
 server.use(router)
+
+server.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
 server.listen(port, () => {
   console.log('JSON Server is running')
 })
 
-// setInterval(function () {
-//   http.get('http://minikin-json-server.herokuapp.com');
-// }, 300000);
+
+setInterval(function () {
+  http.get('http://minikin-json-server.herokuapp.com');
+}, 300000);
