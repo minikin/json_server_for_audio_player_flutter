@@ -21,5 +21,5 @@ server.listen(port, () => {
 
 
 setInterval(function () {
-  http.get('http://minikin-json-server.herokuapp.com');
+  http.get('https://api-flutter-audio-player.herokuapp.com');
 }, 300000);

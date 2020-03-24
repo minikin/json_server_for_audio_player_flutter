@@ -2,7 +2,7 @@
   "vehicles": [
     {
       "id": 1,
-      "img_url": "http://localhost:4000/assets/images/1.png",
+      "img_url": "https://api-flutter-audio-player.herokuapp.com/assets/images/1.png",
       "name": "000011",
       "description": "Electric Scooter",
       "latitude": 52.529077,
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "img_url": "http://localhost:4000/assets/images/13.png",
+      "img_url": "https://api-flutter-audio-player.herokuapp.com/assets/images/13.png",
       "name": "001100",
       "description": "Electric Scooter",
       "latitude": 52.529103,
