@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/minikin/json-server.git"
+    "url": "git+https://github.com/minikin/json_server_for_audio_player_flutter.git"
   },
   "keywords": [
     "json",
@@ -18,10 +18,10 @@
   "author": "Sasha Prokhorenko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/minikin/json-server/issues"
+    "url": "https://github.com/minikin/json_server_for_audio_player_flutter/issues"
   },
-  "homepage": "https://github.com/minikin/json-server#readme",
+  "homepage": "https://github.com/minikin/json_server_for_audio_player_flutter#readme",
   "dependencies": {
-    "json-server": "^0.15.1"
+    "json-server": "0.16.1"
   }
 }
