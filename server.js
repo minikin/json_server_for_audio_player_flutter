@@ -1,5 +1,4 @@
-const path = require('path')
-const express = require('express')
+const https = require("https");
 const jsonServer = require('json-server')
 const data = require('./db.json')
 

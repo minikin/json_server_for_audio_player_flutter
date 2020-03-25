@@ -67,3 +67,7 @@ Get DB
 ```txt
 http://localhost:4000/db
 ```
+
+## More
+
+Read more: [https://github.com/typicode/json-server](https://github.com/typicode/json-server)
