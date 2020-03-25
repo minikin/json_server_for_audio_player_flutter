@@ -1,0 +1,61 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "API Flutter Audio Player",
+    "description": "This document was generated from the branch master.\n\nIf you are a contributor to this project, you may access it here: https://paw.cloud/account/teams/22971/projects/53342",
+    "version": "v0.0.0",
+    "contact": {
+      "name": "minikin",
+      "url": "https://paw.cloud/account/teams/22971"
+    }
+  },
+  "host": "api-flutter-audio-player.herokuapp.com",
+  "schemes": [
+    "https"
+  ],
+  "basePath": "/tunes",
+  "paths": {
+    "/14cc7ea1-b3f2-4be0-a386-f1a11e5a83a4": {
+      "get": {
+        "summary": "Get  Post by Id",
+        "description": "",
+        "operationId": "433e9ab5-a039-4299-bcf6-e5bae702f42f",
+        "responses": {
+          "default": {
+            "description": "no response description was provided for this operation"
+          }
+        },
+        "parameters": []
+      }
+    },
+    "/": {
+      "get": {
+        "summary": "Get List Of Posts by Page",
+        "description": "",
+        "operationId": "6d9d246d-c5cd-485a-8eab-9b2d942913af",
+        "parameters": [
+          {
+            "type": "string",
+            "default": "1",
+            "name": "_page",
+            "required": false,
+            "in": "query"
+          },
+          {
+            "type": "string",
+            "default": "20",
+            "name": "_limit",
+            "required": false,
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "no response description was provided for this operation"
+          }
+        }
+      }
+    }
+  },
+  "tags": []
+}
