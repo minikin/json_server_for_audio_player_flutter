@@ -60,12 +60,17 @@ Get images
 
 ```txt
 http://localhost:4000/assets/images/1.png
+
+https://api-flutter-audio-player.herokuapp.com/assets/images/5.png
+
 ```
 
 Get Audio
 
 ```txt
 http://localhost:4000/assets/audio/bensound-erf.mp3
+
+https://api-flutter-audio-player.herokuapp.com/assets/audio/bensound-erf.mp3
 ```
 
 Get DB
