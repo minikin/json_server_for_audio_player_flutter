@@ -1,4 +1,4 @@
-# Server for 🎧Apple Music / Tidal Style Audio Player for Flutter Project
+# Server for Apple Music / Tidal Style Audio Player for Flutter Project
 
 - [Deploy to Heroku](#deploy-to-heroku)
 - [Get Images](#get-images)
