@@ -1,6 +1,11 @@
-# Json Server
+# Server for 🎧Apple Music / Tidal Style Audio Player for Flutter Project
 
-### Deploy to Heroku
+- [Deploy to Heroku](#deploy-to-heroku)
+- [Get Images](#get-images)
+- [Get Audio](#get-audio)
+- [FAQ](#faq)
+
+## Deploy to Heroku
 
 1 . [Create your database](#create-your-database)
 
@@ -38,25 +43,7 @@ heroku open
 heroku logs --tail
 ```
 
----
-
-#### How it works
-
-Heroku will look for a startup-script, this is by default `npm start` so make sure you have that in your `package.json` (assuming your script is called `server.js`):
-
-```json
- "scripts": {
-    "start" : "node server.js"
- }
-```
-
-You also have to make changes to the port, you can't hardcode a dev-port. But you can reference herokus port. So the code will have the following:
-
-```js
-const port = process.env.PORT || 4000;
-```
-
-Get images
+## Get Images
 
 ```txt
 http://localhost:4000/assets/images/1.png
@@ -65,7 +52,7 @@ https://api-flutter-audio-player.herokuapp.com/assets/images/5.png
 
 ```
 
-Get Audio
+## Get Audio
 
 ```txt
 http://localhost:4000/assets/audio/bensound-erf.mp3
@@ -79,6 +66,6 @@ Get DB
 http://localhost:4000/db
 ```
 
-## More
+## FAQ
 
 Read more: [https://github.com/typicode/json-server](https://github.com/typicode/json-server)
