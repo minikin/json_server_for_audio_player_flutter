@@ -17,7 +17,3 @@ server.use(router)
 server.listen(port)
 
 console.log('Server is running on:', 'http://localhost:' + port);
-
-// setInterval(function () {
-//   https.get('https://api-flutter-audio-player.herokuapp.com');
-// }, 300000);
