@@ -1,6 +1,6 @@
 {
   "name": "fake-json-server",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Json Server",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/minikin/json_server_for_audio_player_flutter#readme",
   "dependencies": {
-    "json-server": "0.16.1"
+    "json-server": "0.17.1"
   }
 }
